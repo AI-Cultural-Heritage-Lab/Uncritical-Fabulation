@@ -1,5 +1,31 @@
 // UI: fetch, controls, zoom/pan, centering, search, settings
 (function(){
+  /* ---------- Base Path Detection for GitHub Pages ---------- */
+  // Detect base path for subdirectory deployments (e.g., /Uncritical-Fabulation/)
+  function getBasePath() {
+    const pathname = window.location.pathname;
+    // Remove trailing filename (index.html) if present
+    const basePath = pathname.replace(/\/[^/]*$/, '');
+    // Ensure it ends with / and starts with /
+    return basePath === '' ? '' : (basePath.endsWith('/') ? basePath : basePath + '/');
+  }
+
+  const BASE_PATH = getBasePath();
+
+  // Helper function to resolve paths relative to base
+  function resolvePath(path) {
+    // If path already starts with http:// or https://, return as-is
+    if (path.startsWith('http://') || path.startsWith('https://')) {
+      return path;
+    }
+    // If path starts with /, it's absolute from domain root, so prepend base path
+    if (path.startsWith('/')) {
+      return BASE_PATH + path.slice(1);
+    }
+    // Otherwise, it's relative, so prepend base path
+    return BASE_PATH + path;
+  }
+
   const stage = document.getElementById('stage');
   const svgEl = document.getElementById('svg');
   const svg = d3.select(svgEl);
@@ -513,7 +539,7 @@ ui.applyBtn.addEventListener('click', ()=>{
   // Load token index for cross-cluster search
   async function loadTokenIndex() {
     try {
-      const response = await fetch('cluster_json/token_index.json');
+      const response = await fetch(resolvePath('cluster_json/token_index.json'));
       if (response.ok) {
         tokenIndex = await response.json();
         console.log(`Loaded token index with ${Object.keys(tokenIndex).length} tokens`);
@@ -698,7 +724,7 @@ ui.applyBtn.addEventListener('click', ()=>{
     crossClusterMatches = [];
     for (const clusterId of matchingClusters) {
       try {
-        const response = await fetch(`cluster_json/${clusterId}.json`);
+        const response = await fetch(resolvePath(`cluster_json/${clusterId}.json`));
         if (response.ok) {
           const data = await response.json();
 
@@ -728,7 +754,7 @@ ui.applyBtn.addEventListener('click', ()=>{
     // Reload current cluster to restore original state
     if (currentClusterId) {
       try {
-        const response = await fetch(`cluster_json/${currentClusterId}.json`);
+        const response = await fetch(resolvePath(`cluster_json/${currentClusterId}.json`));
         if (response.ok) {
           const data = await response.json();
           VIZ.loadData(data);
@@ -783,7 +809,7 @@ ui.applyBtn.addEventListener('click', ()=>{
       ui.loadingSpinner.style.display = 'flex';
 
       try {
-        const response = await fetch(`cluster_json/${match.clusterId}.json`);
+        const response = await fetch(resolvePath(`cluster_json/${match.clusterId}.json`));
         if (response.ok) {
           const data = await response.json();
           VIZ.loadData(data);
@@ -878,7 +904,7 @@ ui.applyBtn.addEventListener('click', ()=>{
   function loadCluster(clusterId) {
     ui.loadingSpinner.style.display = 'flex';
 
-    fetch(`cluster_json/${clusterId}.json`)
+    fetch(resolvePath(`cluster_json/${clusterId}.json`))
       .then(r => r.json())
       .then(data => {
         VIZ.loadData(data);
@@ -944,7 +970,7 @@ ui.applyBtn.addEventListener('click', ()=>{
       console.error('Failed to initialize clusters:', err);
       // Fallback to legacy data.json if available
       try {
-        const response = await fetch('data.json');
+        const response = await fetch(resolvePath('data.json'));
         if (response.ok) {
           const data = await response.json();
           VIZ.loadData(data);
@@ -977,7 +1003,7 @@ ui.applyBtn.addEventListener('click', ()=>{
 
   async function discoverClusterFiles() {
     // Load manifest.json for cluster metadata
-    const response = await fetch('cluster_json/manifest.json');
+    const response = await fetch(resolvePath('cluster_json/manifest.json'));
     if (!response.ok) {
       throw new Error('Failed to load manifest.json');
     }
