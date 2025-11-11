@@ -312,7 +312,7 @@ function applyZoomBounds() {
   stage.addEventListener('scroll', () => {
     VIZ.renderVisible();
     clampScroll();
-    updateViewInUrl(); // <— reflect scroll changes as well
+    // updateViewInUrl(); // <— reflect scroll changes as well
   }, { passive: true });
 
   /* ---------- Centering helpers ---------- */
