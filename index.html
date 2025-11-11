@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Token Decision Tree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v3.min.js"></script>
+  <script src="https://unpkg.com/@dagrejs/dagre@1.1.5/dist/dagre.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://unpkg.com/svg2pdf.js@2.2.2/dist/svg2pdf.umd.min.js"></script>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    <h1 class="title">Token Decision Tree</h1>
+    <div class="cluster-group">
+      <label for="cluster-select" class="cluster-label">Cluster:</label>
+      <select id="cluster-select" class="cluster-select">
+        <option>Loading...</option>
+      </select>
+    </div>
+    <div class="spacer"></div>
+    <div class="search-ui">
+      <div class="search-input-wrapper">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input id="search" placeholder="find token…" class="search-input">
+        <div class="search-scope-dropdown">
+          <button id="search-scope-btn" class="search-scope-btn" title="Search scope">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46"></polygon>
+            </svg>
+          </button>
+          <div id="search-scope-menu" class="search-scope-menu">
+            <div class="search-scope-option active" data-scope="current">Current cluster</div>
+            <div class="search-scope-option" data-scope="all">All clusters</div>
+          </div>
+        </div>
+      </div>
+      <button id="btn-prev" class="btn small">Prev</button>
+      <button id="btn-next" class="btn small">Next</button>
+      <span id="match-count" class="count" style="display: none;">0/0</span>
+    </div>
+    <button id="btn-gear" class="btn" title="Settings (⌘/, Ctrl/)">
+      <svg class="gear-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <div class="stage-wrap">
+    <div id="stage" aria-label="LR decision tree">
+      <svg id="svg">
+        <g id="viewport">
+          <g id="links"></g>
+          <g id="nodes"></g>
+        </g>
+      </svg>
+      <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+        <div>Loading...</div>
+      </div>
+    </div>
+
+    <!-- Zoom controls pinned to the viewport, not the scrollable content -->
+    <div class="zoom-controls" aria-label="Zoom controls">
+      <button id="zoom-out" class="btn small" title="Zoom out (Shift + two-finger down)">–</button>
+      <button id="zoom-in"  class="btn small" title="Zoom in (Shift + two-finger up)">+</button>
+      <span id="zoom-pct" class="zoom-pct">100%</span>
+    </div>
+  </div>
+
+  <!-- Settings -->
+  <div id="panel" class="panel" role="dialog" aria-modal="false" aria-label="Settings">
+    <div class="panel-header">
+      <h3>Settings</h3>
+      <button id="btn-close-panel" class="btn small close-btn" title="Close">×</button>
+    </div>
+    <div class="grid">
+      <label>Layout</label>
+      <select id="sel-layout">
+        <option value="dagre" selected>Dagre (hierarchical)</option>
+        <option value="branched">Branched (classic tree)</option>
+        <option value="linear">Linearized (straight path)</option>
+      </select>
+
+      <label>Main path metric</label>
+      <select id="sel-metric">
+        <option value="emp">Empirical frequency</option>
+        <option value="model">Model probability</option>
+      </select>
+
+      <label>Probability display</label>
+      <select id="sel-prob-display">
+        <option value="mean">Mean only</option>
+        <option value="mean_sd" selected>Mean ± SD</option>
+        <option value="range">Approx range (μ ± 2σ)</option>
+      </select>
+
+      <label>gapX (px between depths)</label><input id="num-gapx" type="number" value="400" min="60" max="4000">
+      <label>alts spacing (px)</label><input id="num-altgap" type="number" value="45" min="0" max="200">
+
+      <label>token font px</label><input id="num-font-tok" type="number" value="16" min="10" max="28">
+      <label>meta font px</label><input id="num-font-meta" type="number" value="12" min="9" max="20">
+
+      <label>box pad top px</label><input id="num-pad-t" type="number" value="10" min="2" max="30">
+      <label>box pad bottom px</label><input id="num-pad-b" type="number" value="10" min="2" max="30">
+      <label>box pad left/right px</label><input id="num-pad-x" type="number" value="10" min="2" max="30">
+
+      <label>label max width px</label><input id="num-label-max" type="number" value="520" min="160" max="2000">
+
+      <label>color floor p</label><input id="num-cfloor" type="number" value="0.02" step="0.01" min="0" max="1">
+      <label>color cap p</label><input id="num-ccap" type="number" value="0.60" step="0.05" min="0" max="1">
+
+      <label>Theme</label>
+      <select id="sel-theme">
+        <option value="auto" selected>Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+
+      <label>Show predicted</label>
+      <label class="checkbox-label">
+        <input id="chk-predicted-paths" type="checkbox" checked>
+        <span class="checkmark"></span>
+        Display predicted tokens.
+      </label>
+
+      <div class="row2 actions">
+        <button id="btn-apply" class="btn small">Apply</button>
+      </div>
+      <div class="row2 subtle">
+        Two-finger scroll: vertical/horizontal scrolling.
+        <b>Shift + two-finger</b>: zoom around cursor.
+        Click & drag anywhere on the canvas to pan.
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-row">
+    <div class="legend">
+      <div class="legend-item">
+        <div class="color-bar"></div>
+        <span>Probability (0% to 100%)</span>
+      </div>
+      <div class="legend-item">
+        <svg width="40" height="4">
+          <line x1="0" y1="2" x2="20" y2="2" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <span>Observed path</span>
+      </div>
+      <div class="legend-item">
+        <svg width="40" height="4">
+          <line x1="0" y1="2" x2="20" y2="2" stroke="currentColor" stroke-width="2" stroke-dasharray="5 4"/>
+        </svg>
+        <span>Predicted path</span>
+      </div>
+    </div>
+    
+    <!-- Not Ready for prime time -->
+    <div class="actions">
+      <button id="btn-save" class="btn" title="Save PDF">
+        <svg class="action-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7,10 12,15 17,10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+      </button>
+      <button id="btn-share" class="btn" title="Share View">
+        <svg class="action-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+      </button>
+    </div>
+    
+
+  </div>
+
+  <div class="project-description">
+    <div class="description-content">
+      <h2>About This Project</h2>
+      <p>This project visualizes how a Large Language Model (LLM) constructs Holocaust testimony by analyzing 1,000 completions generated in response to the prompt: "Can you generate a testimony of a Holocaust survivor from Hungary who was deported to Auschwitz with their family in 1944?".</p>
+
+      <p>Using using ChatGPT-4o-latest, we generated 1,000 independent completions to the same prompt and extract both the tokens the model actually chose and the high-probability alternatives it considered at each step. </p>
+      <p> The visualization transforms these completions into interactive token decision trees. Each completion is segmented into sentences and phrases and converted into embeddings using a sentence transformer model. These segment embeddings are clustered using K-Means, with each cluster labeled to describe what its segments have in common and what distinguishes it from neighboring clusters.</p>
+
+      <p>For every cluster, we built a token decion tree that aggregates the chosen and alternative paths that we observed across all 1,000 completions. Each tree reveals the model's decision-making process: solid edges show the paths the model actually took and frequency counts indicate how times the model took each path. Dashed edges display high-probability alternatives the LLM considered but didn't choose. Visitors can explore dominant narrative patterns, rare variations, and the model's unrealized possibilities—revealing how artificial intelligence constructs historical memory.</p>
+    </div>
+  </div>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/layout/linear.js"></script>
+  <script src="./js/layout/branched.js"></script>
+  <script src="./js/layout/dagre.js"></script>
+  <script src="./js/viz.js"></script>
+  <script src="./js/pdf.js"></script>
+  <script src="./js/ui.js"></script>
+</body>
+</html>
