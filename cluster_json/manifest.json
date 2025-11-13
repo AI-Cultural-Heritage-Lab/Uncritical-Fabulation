@@ -1,8 +1,24 @@
 {
   "clusters": [    
     {
+    "id": "first_paragraph_of_testimony_c0",
+    "label": "First Paragraph of Testimony—C0"
+    },
+    {
+    "id": "emphatic_finality_c33",
+    "label": "Emphatic Finality—C33"
+    },
+    {
+    "id": "survivors_rebuilding_lives_through_immigration_c36",
+    "label": "Survivors Rebuilding Lives Through Immigration—C36"
+    },
+    {
     "id": "miriam_name_variants_c143",
     "label": "Miriam Name Variants—C143"
+    },
+    {
+    "id": "survival_through_mutual_support_c161",
+    "label": "Survival Through Mutual Support—C161"
     }
   ]
 }
