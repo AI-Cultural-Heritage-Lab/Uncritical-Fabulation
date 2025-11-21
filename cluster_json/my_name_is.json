@@ -1,0 +1,4772 @@
+{
+  "graph_kind": "GRAPH_V1",
+  "meta": {
+    "title": "First Paragraph of Testimony—C0",
+    "prompt": null,
+    "filtered_by_path": [
+      "My",
+      " name",
+      " is"
+    ],
+    "original_node_count": 2356,
+    "filtered_node_count": 199,
+    "max_depth": 10,
+    "path_prefix": [
+      "My",
+      " name",
+      " is"
+    ],
+    "final_node_count": 98
+  },
+  "nodes": [
+    {
+      "id": "0",
+      "token": "[First Paragraph of Testimony—C0]",
+      "is_root": true,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": -1,
+      "path": [],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": null,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {
+        "My": 302,
+        "Born": 154,
+        "I": 57,
+        "*": 78,
+        "Sur": 19,
+        "\"My": 12,
+        "Test": 12,
+        "De": 4,
+        "“My": 3,
+        " born": 5,
+        "\"I": 4,
+        "*A": 2,
+        "Date": 3,
+        "Place": 1,
+        " Holocaust": 1,
+        " Born": 1,
+        " Budapest": 1,
+        " Erz": 1,
+        "Age": 3,
+        "(S": 1,
+        "**": 1,
+        "Location": 1
+      },
+      "model_children": {
+        "My": {
+          "avg_prob": 0.7263710166674523,
+          "var": 0.06762372673027063,
+          "n": 390
+        },
+        "I": {
+          "avg_prob": 0.14878523216529854,
+          "var": 0.0133140187649758,
+          "n": 364
+        },
+        "\"My": {
+          "avg_prob": 0.022198842871439087,
+          "var": 0.000569485333545277,
+          "n": 389
+        },
+        "*": {
+          "avg_prob": 0.22468382789385347,
+          "var": 0.017174473998994657,
+          "n": 318
+        },
+        "Born": {
+          "avg_prob": 0.5753565297093992,
+          "var": 0.01681939549526916,
+          "n": 268
+        },
+        "Sur": {
+          "avg_prob": 0.07640324688838429,
+          "var": 0.0029328921251728134,
+          "n": 259
+        },
+        "Date": {
+          "avg_prob": 0.022509118163806983,
+          "var": 0.00026623409827277253,
+          "n": 247
+        },
+        "(B": {
+          "avg_prob": 0.010153265108016568,
+          "var": 3.894242283978652e-05,
+          "n": 80
+        },
+        "De": {
+          "avg_prob": 0.017393946849282232,
+          "var": 0.00013504274520038695,
+          "n": 163
+        },
+        "**": {
+          "avg_prob": 0.8736416610700961,
+          "var": 0.010624867410328734,
+          "n": 43
+        },
+        "Test": {
+          "avg_prob": 0.0170365679469985,
+          "var": 0.00012704198212103147,
+          "n": 42
+        },
+        "Recorded": {
+          "avg_prob": 0.01466334516614182,
+          "var": 5.883532567126042e-06,
+          "n": 2
+        },
+        " born": {
+          "avg_prob": 0.7260710261603653,
+          "var": 0.0044904978674492925,
+          "n": 8
+        },
+        " Holocaust": {
+          "avg_prob": 0.14850822346012002,
+          "var": 0.0039559938297693675,
+          "n": 8
+        },
+        " survivor": {
+          "avg_prob": 0.025993255065475413,
+          "var": 8.275813625088682e-05,
+          "n": 6
+        },
+        " Survivor": {
+          "avg_prob": 0.029808436764554812,
+          "var": 6.89490332853768e-05,
+          "n": 8
+        },
+        "  \\n": {
+          "avg_prob": 0.16403343782373794,
+          "var": 0.013558647274819901,
+          "n": 11
+        },
+        "“I": {
+          "avg_prob": 0.012299388206606211,
+          "var": 0.0,
+          "n": 1
+        },
+        "(S": {
+          "avg_prob": 0.013750001397215258,
+          "var": 5.970516400131107e-06,
+          "n": 2
+        },
+        " Auschwitz": {
+          "avg_prob": 0.02275561138113009,
+          "var": 7.06157529606344e-05,
+          "n": 6
+        },
+        "Age": {
+          "avg_prob": 0.012094368349464165,
+          "var": 4.374783490345986e-05,
+          "n": 2
+        },
+        " Miriam": {
+          "avg_prob": 0.31517549944063866,
+          "var": 0.0,
+          "n": 1
+        },
+        " Eva": {
+          "avg_prob": 0.24545892576929051,
+          "var": 0.0,
+          "n": 1
+        },
+        " Kl": {
+          "avg_prob": 0.11594658660515239,
+          "var": 0.0,
+          "n": 1
+        },
+        " É": {
+          "avg_prob": 0.07032515966505107,
+          "var": 0.0,
+          "n": 1
+        },
+        " Erz": {
+          "avg_prob": 0.07032515966505107,
+          "var": 0.0,
+          "n": 1
+        },
+        "(b": {
+          "avg_prob": 0.010077123242845303,
+          "var": 0.0,
+          "n": 1
+        },
+        "Hung": {
+          "avg_prob": 0.011060068586750613,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "1",
+      "token": "My",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 0,
+      "path": [
+        "My"
+      ],
+      "emp_parent_total": 666,
+      "emp_count_here": 302,
+      "emp_freq_here": 0.45345345345345345,
+      "model_prob_here": 0.7263710166674523,
+      "model_prob_std": 0.26004562432440703,
+      "model_prob_n": 390,
+      "emp_children": {
+        " name": 302
+      },
+      "model_children": {
+        " name": {
+          "avg_prob": 0.9999994301779057,
+          "var": 4.769667913119932e-12,
+          "n": 302
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "2",
+      "token": " name",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 1,
+      "path": [
+        "My",
+        " name"
+      ],
+      "emp_parent_total": 302,
+      "emp_count_here": 302,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999994301779057,
+      "model_prob_std": 2.183956939392334e-06,
+      "model_prob_n": 302,
+      "emp_children": {
+        " is": 302
+      },
+      "model_children": {
+        " is": {
+          "avg_prob": 0.9999999400281776,
+          "var": 1.1766217512401212e-14,
+          "n": 302
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "3",
+      "token": " is",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 2,
+      "path": [
+        "My",
+        " name",
+        " is"
+      ],
+      "emp_parent_total": 302,
+      "emp_count_here": 302,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999999400281776,
+      "model_prob_std": 1.0847219695572323e-07,
+      "model_prob_n": 302,
+      "emp_children": {
+        " M": 6,
+        " Miriam": 120,
+        " Kl": 41,
+        " É": 22,
+        " Eva": 59,
+        " Il": 15,
+        " Es": 7,
+        " Erz": 12,
+        " Edit": 6,
+        " Esther": 1,
+        " Á": 2,
+        " Anna": 8,
+        " Edith": 1,
+        " Clara": 1,
+        " Vera": 1
+      },
+      "model_children": {
+        " M": {
+          "avg_prob": 0.454545182766762,
+          "var": 0.24793358691014536,
+          "n": 11
+        },
+        " Miriam": {
+          "avg_prob": 0.8641395808248088,
+          "var": 0.08506421476561762,
+          "n": 131
+        },
+        " Kl": {
+          "avg_prob": 0.6569427346914445,
+          "var": 0.1772920735657826,
+          "n": 65
+        },
+        " É": {
+          "avg_prob": 0.22249620016606755,
+          "var": 0.1482402993466456,
+          "n": 103
+        },
+        " Eva": {
+          "avg_prob": 0.7382368292441654,
+          "var": 0.15059273731419553,
+          "n": 80
+        },
+        " Il": {
+          "avg_prob": 0.4055260653155253,
+          "var": 0.17037577547064703,
+          "n": 37
+        },
+        " Es": {
+          "avg_prob": 0.9999997999881318,
+          "var": 9.374031081266924e-15,
+          "n": 7
+        },
+        " Erz": {
+          "avg_prob": 0.8642806995829814,
+          "var": 0.11087428263360397,
+          "n": 14
+        },
+        " Edit": {
+          "avg_prob": 0.8571406732626933,
+          "var": 0.12244796392969295,
+          "n": 7
+        },
+        " Edith": {
+          "avg_prob": 0.14285911715557012,
+          "var": 0.12244798555382501,
+          "n": 7
+        },
+        " Esther": {
+          "avg_prob": 0.999997779927489,
+          "var": 0.0,
+          "n": 1
+        },
+        " Á": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 2
+        },
+        " Anna": {
+          "avg_prob": 0.9999997988905192,
+          "var": 6.309141740764703e-14,
+          "n": 8
+        },
+        " Clara": {
+          "avg_prob": 0.9999955150656735,
+          "var": 0.0,
+          "n": 1
+        },
+        " Vera": {
+          "avg_prob": 0.9999989719621736,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "4",
+      "token": " Miriam",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 3,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam"
+      ],
+      "emp_parent_total": 302,
+      "emp_count_here": 120,
+      "emp_freq_here": 0.3973509933774834,
+      "model_prob_here": 0.8641395808248088,
+      "model_prob_std": 0.29165770136517505,
+      "model_prob_n": 131,
+      "emp_children": {
+        " Klein": 78,
+        " Weiss": 17,
+        " Fischer": 3,
+        " Gold": 8,
+        " We": 5,
+        " Sz": 3,
+        " Fal": 1,
+        " Adler": 2,
+        " Hor": 1,
+        " F": 2
+      },
+      "model_children": {
+        " Klein": {
+          "avg_prob": 0.7820913744780239,
+          "var": 0.14169122317741123,
+          "n": 102
+        },
+        " Weiss": {
+          "avg_prob": 0.157903443395585,
+          "var": 0.12640737753327955,
+          "n": 106
+        },
+        " We": {
+          "avg_prob": 0.14024061882597302,
+          "var": 0.09323872894963292,
+          "n": 27
+        },
+        " Fischer": {
+          "avg_prob": 0.74999995540433,
+          "var": 0.1874999700871971,
+          "n": 4
+        },
+        " Gold": {
+          "avg_prob": 0.39588699132491983,
+          "var": 0.1965708111634214,
+          "n": 20
+        },
+        " Adler": {
+          "avg_prob": 0.1857696577776863,
+          "var": 0.1326060143161847,
+          "n": 12
+        },
+        " F": {
+          "avg_prob": 0.5077716666260514,
+          "var": 0.24228889256297662,
+          "n": 4
+        },
+        " K": {
+          "avg_prob": 0.18065000386879207,
+          "var": 0.0,
+          "n": 1
+        },
+        " Fal": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        },
+        " Hor": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        },
+        " Sz": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "5",
+      "token": " Klein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein"
+      ],
+      "emp_parent_total": 120,
+      "emp_count_here": 78,
+      "emp_freq_here": 0.65,
+      "model_prob_here": 0.7820913744780239,
+      "model_prob_std": 0.37641894635819173,
+      "model_prob_n": 102,
+      "emp_children": {
+        ".": 75,
+        ",": 3
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9609191950543834,
+          "var": 0.0021435728841355576,
+          "n": 78
+        },
+        ",": {
+          "avg_prob": 0.039021535206490446,
+          "var": 0.002137130273867793,
+          "n": 78
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "6",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        "."
+      ],
+      "emp_parent_total": 78,
+      "emp_count_here": 75,
+      "emp_freq_here": 0.9615384615384616,
+      "model_prob_here": 0.9609191950543834,
+      "model_prob_std": 0.04629873523256934,
+      "model_prob_n": 78,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "7",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ","
+      ],
+      "emp_parent_total": 78,
+      "emp_count_here": 3,
+      "emp_freq_here": 0.038461538461538464,
+      "model_prob_here": 0.039021535206490446,
+      "model_prob_std": 0.04622910634943956,
+      "model_prob_n": 78,
+      "emp_children": {
+        " and": 3
+      },
+      "model_children": {
+        " and": {
+          "avg_prob": 0.9984261931309888,
+          "var": 5.600696136192224e-07,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "8",
+      "token": " and",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9984261931309888,
+      "model_prob_std": 0.0007483779884652023,
+      "model_prob_n": 3,
+      "emp_children": {
+        " I": 3
+      },
+      "model_children": {
+        " I": {
+          "avg_prob": 0.9999798202282436,
+          "var": 2.3603014275834843e-10,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "9",
+      "token": " I",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999798202282436,
+      "model_prob_std": 1.536327252763383e-05,
+      "model_prob_n": 3,
+      "emp_children": {
+        " was": 3
+      },
+      "model_children": {
+        " was": {
+          "avg_prob": 0.9995583882059379,
+          "var": 1.2340901480319006e-07,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "10",
+      "token": " was",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 8,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9995583882059379,
+      "model_prob_std": 0.00035129619241203007,
+      "model_prob_n": 3,
+      "emp_children": {
+        " born": 3
+      },
+      "model_children": {
+        " born": {
+          "avg_prob": 0.9998911556107087,
+          "var": 1.2607410997801386e-08,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "11",
+      "token": " born",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 9,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9998911556107087,
+      "model_prob_std": 0.00011228272795849496,
+      "model_prob_n": 3,
+      "emp_children": {
+        " in": 3
+      },
+      "model_children": {
+        " in": {
+          "avg_prob": 0.9996282052801534,
+          "var": 1.0154368172017902e-07,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "12",
+      "token": " in",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 10,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9996282052801534,
+      "model_prob_std": 0.00031865919368532114,
+      "model_prob_n": 3,
+      "emp_children": {
+        " Deb": 1,
+        " ": 1,
+        " M": 1
+      },
+      "model_children": {
+        " Deb": {
+          "avg_prob": 0.6535650100969358,
+          "var": 0.00028644392336041823,
+          "n": 3
+        },
+        " ": {
+          "avg_prob": 0.23051766049945302,
+          "var": 0.003894636164372302,
+          "n": 3
+        },
+        " M": {
+          "avg_prob": 0.08990607951315703,
+          "var": 0.0017103803913323433,
+          "n": 3
+        },
+        " Sz": {
+          "avg_prob": 0.012374898189439704,
+          "var": 8.860003184560268e-05,
+          "n": 3
+        },
+        " the": {
+          "avg_prob": 0.011506320606345244,
+          "var": 1.090843607482167e-05,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "13",
+      "token": " Deb",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.3333333333333333,
+      "model_prob_here": 0.6535650100969358,
+      "model_prob_std": 0.016924654305492275,
+      "model_prob_n": 3,
+      "emp_children": {
+        "rec": 1
+      },
+      "model_children": {
+        "rec": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "14",
+      "token": "rec",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb",
+        "rec"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "en": 1
+      },
+      "model_children": {
+        "en": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "24",
+      "token": " ",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " "
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.3333333333333333,
+      "model_prob_here": 0.23051766049945302,
+      "model_prob_std": 0.062407020152962775,
+      "model_prob_n": 3,
+      "emp_children": {
+        "192": 1
+      },
+      "model_children": {
+        "192": {
+          "avg_prob": 0.9933071269064123,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "25",
+      "token": "192",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " ",
+        "192"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9933071269064123,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "8": 1
+      },
+      "model_children": {
+        "9": {
+          "avg_prob": 0.6190285118514596,
+          "var": 0.0,
+          "n": 1
+        },
+        "8": {
+          "avg_prob": 0.3754597716741955,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "34",
+      "token": " M",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.3333333333333333,
+      "model_prob_here": 0.08990607951315703,
+      "model_prob_std": 0.04135674541513565,
+      "model_prob_n": 3,
+      "emp_children": {
+        "isk": 1
+      },
+      "model_children": {
+        "isk": {
+          "avg_prob": 0.9336587442012717,
+          "var": 0.0,
+          "n": 1
+        },
+        "unk": {
+          "avg_prob": 0.05968680616902643,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "35",
+      "token": "isk",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M",
+        "isk"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9336587442012717,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "ol": 1
+      },
+      "model_children": {
+        "ol": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "46",
+      "token": " Weiss",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss"
+      ],
+      "emp_parent_total": 120,
+      "emp_count_here": 17,
+      "emp_freq_here": 0.14166666666666666,
+      "model_prob_here": 0.157903443395585,
+      "model_prob_std": 0.35553815200802225,
+      "model_prob_n": 106,
+      "emp_children": {
+        ".": 15,
+        ",": 2
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.963838875098119,
+          "var": 0.003423145422601159,
+          "n": 17
+        },
+        ",": {
+          "avg_prob": 0.03610392439521065,
+          "var": 0.0034104231740298137,
+          "n": 17
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "47",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        "."
+      ],
+      "emp_parent_total": 17,
+      "emp_count_here": 15,
+      "emp_freq_here": 0.8823529411764706,
+      "model_prob_here": 0.963838875098119,
+      "model_prob_std": 0.05850765268408193,
+      "model_prob_n": 17,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "48",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ","
+      ],
+      "emp_parent_total": 17,
+      "emp_count_here": 2,
+      "emp_freq_here": 0.11764705882352941,
+      "model_prob_here": 0.03610392439521065,
+      "model_prob_std": 0.05839882853302636,
+      "model_prob_n": 17,
+      "emp_children": {
+        " and": 2
+      },
+      "model_children": {
+        " and": {
+          "avg_prob": 0.9976058345416738,
+          "var": 1.8061339470464576e-06,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "49",
+      "token": " and",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9976058345416738,
+      "model_prob_std": 0.0013439248293883321,
+      "model_prob_n": 2,
+      "emp_children": {
+        " I": 2
+      },
+      "model_children": {
+        " I": {
+          "avg_prob": 0.9998640676164341,
+          "var": 1.6904423540950904e-08,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "50",
+      "token": " I",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9998640676164341,
+      "model_prob_std": 0.0001300170125058675,
+      "model_prob_n": 2,
+      "emp_children": {
+        " was": 2
+      },
+      "model_children": {
+        " was": {
+          "avg_prob": 0.9989497255400803,
+          "var": 4.448679468778562e-07,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "51",
+      "token": " was",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 8,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9989497255400803,
+      "model_prob_std": 0.0006669842178626539,
+      "model_prob_n": 2,
+      "emp_children": {
+        " born": 2
+      },
+      "model_children": {
+        " born": {
+          "avg_prob": 0.999952781953137,
+          "var": 5.941893304448361e-10,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "52",
+      "token": " born",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 9,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.999952781953137,
+      "model_prob_std": 2.4375999065573417e-05,
+      "model_prob_n": 2,
+      "emp_children": {
+        " in": 2
+      },
+      "model_children": {
+        " in": {
+          "avg_prob": 0.9996685928687177,
+          "var": 9.88188265194908e-09,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "53",
+      "token": " in",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 10,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9996685928687177,
+      "model_prob_std": 9.940765891996994e-05,
+      "model_prob_n": 2,
+      "emp_children": {
+        " ": 1,
+        " Deb": 1
+      },
+      "model_children": {
+        " Deb": {
+          "avg_prob": 0.514145793210946,
+          "var": 0.0021930159568158136,
+          "n": 2
+        },
+        " ": {
+          "avg_prob": 0.40378247477306495,
+          "var": 0.004036527245375684,
+          "n": 2
+        },
+        " M": {
+          "avg_prob": 0.06258725878869062,
+          "var": 0.00017775562083734904,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "54",
+      "token": " ",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " "
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.5,
+      "model_prob_here": 0.40378247477306495,
+      "model_prob_std": 0.06353367017082898,
+      "model_prob_n": 2,
+      "emp_children": {
+        "192": 1
+      },
+      "model_children": {
+        "192": {
+          "avg_prob": 0.991422430108248,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "55",
+      "token": "192",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " ",
+        "192"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.991422430108248,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "8": 1
+      },
+      "model_children": {
+        "9": {
+          "avg_prob": 0.6174183593701366,
+          "var": 0.0,
+          "n": 1
+        },
+        "8": {
+          "avg_prob": 0.3744831648274607,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "64",
+      "token": " Deb",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.5,
+      "model_prob_here": 0.514145793210946,
+      "model_prob_std": 0.046829648267052076,
+      "model_prob_n": 2,
+      "emp_children": {
+        "rec": 1
+      },
+      "model_children": {
+        "rec": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "65",
+      "token": "rec",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb",
+        "rec"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "en": 1
+      },
+      "model_children": {
+        "en": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "75",
+      "token": " Gold",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold"
+      ],
+      "emp_parent_total": 120,
+      "emp_count_here": 8,
+      "emp_freq_here": 0.06666666666666667,
+      "model_prob_here": 0.39588699132491983,
+      "model_prob_std": 0.4433630692371901,
+      "model_prob_n": 20,
+      "emp_children": {
+        "stein": 7,
+        "mann": 1
+      },
+      "model_children": {
+        "stein": {
+          "avg_prob": 0.998997832126361,
+          "var": 6.026042681725077e-06,
+          "n": 7
+        },
+        "mann": {
+          "avg_prob": 0.5005130243724034,
+          "var": 0.24948723882160323,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "76",
+      "token": "stein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "stein"
+      ],
+      "emp_parent_total": 8,
+      "emp_count_here": 7,
+      "emp_freq_here": 0.875,
+      "model_prob_here": 0.998997832126361,
+      "model_prob_std": 0.002454799927025638,
+      "model_prob_n": 7,
+      "emp_children": {
+        ".": 7
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.971415239188927,
+          "var": 0.00012325727245442213,
+          "n": 7
+        },
+        ",": {
+          "avg_prob": 0.028526836136213398,
+          "var": 0.00012310215454305965,
+          "n": 7
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "77",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "stein",
+        "."
+      ],
+      "emp_parent_total": 7,
+      "emp_count_here": 7,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.971415239188927,
+      "model_prob_std": 0.011102129185630211,
+      "model_prob_n": 7,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "78",
+      "token": "mann",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "mann"
+      ],
+      "emp_parent_total": 8,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.125,
+      "model_prob_here": 0.5005130243724034,
+      "model_prob_std": 0.49948697562759653,
+      "model_prob_n": 2,
+      "emp_children": {
+        ".": 1
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9524956981174496,
+          "var": 0.0,
+          "n": 1
+        },
+        ",": {
+          "avg_prob": 0.04742197374208802,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "79",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "mann",
+        "."
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9524956981174496,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "80",
+      "token": " Eva",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 3,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva"
+      ],
+      "emp_parent_total": 302,
+      "emp_count_here": 59,
+      "emp_freq_here": 0.19536423841059603,
+      "model_prob_here": 0.7382368292441654,
+      "model_prob_std": 0.3880628007348753,
+      "model_prob_n": 80,
+      "emp_children": {
+        " Klein": 51,
+        " Stein": 1,
+        " We": 1,
+        " Gold": 4,
+        " T": 1,
+        " F": 1
+      },
+      "model_children": {
+        " Klein": {
+          "avg_prob": 0.9717268359165396,
+          "var": 0.019511688585101286,
+          "n": 52
+        },
+        " Friedman": {
+          "avg_prob": 0.019576099589592354,
+          "var": 3.0263460385206467e-06,
+          "n": 4
+        },
+        " Gold": {
+          "avg_prob": 0.5080812333566374,
+          "var": 0.24198393867559786,
+          "n": 8
+        },
+        " We": {
+          "avg_prob": 0.2586666174270533,
+          "var": 0.18319294498433825,
+          "n": 4
+        },
+        " Stein": {
+          "avg_prob": 0.9999998063873693,
+          "var": 0.0,
+          "n": 1
+        },
+        " T": {
+          "avg_prob": 0.9958123867312952,
+          "var": 0.0,
+          "n": 1
+        },
+        " F": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "81",
+      "token": " Klein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein"
+      ],
+      "emp_parent_total": 59,
+      "emp_count_here": 51,
+      "emp_freq_here": 0.864406779661017,
+      "model_prob_here": 0.9717268359165396,
+      "model_prob_std": 0.13968424601615348,
+      "model_prob_n": 52,
+      "emp_children": {
+        ".": 48,
+        ",": 3
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9358408694286987,
+          "var": 0.010599432274420902,
+          "n": 51
+        },
+        ",": {
+          "avg_prob": 0.06378978417717031,
+          "var": 0.010588097767281751,
+          "n": 51
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "82",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        "."
+      ],
+      "emp_parent_total": 51,
+      "emp_count_here": 48,
+      "emp_freq_here": 0.9411764705882353,
+      "model_prob_here": 0.9358408694286987,
+      "model_prob_std": 0.10295354425380848,
+      "model_prob_n": 51,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "83",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ","
+      ],
+      "emp_parent_total": 51,
+      "emp_count_here": 3,
+      "emp_freq_here": 0.058823529411764705,
+      "model_prob_here": 0.06378978417717031,
+      "model_prob_std": 0.10289848282303171,
+      "model_prob_n": 51,
+      "emp_children": {
+        " and": 3
+      },
+      "model_children": {
+        " and": {
+          "avg_prob": 0.994577899115253,
+          "var": 1.865397204213061e-05,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "84",
+      "token": " and",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.994577899115253,
+      "model_prob_std": 0.004319024431758937,
+      "model_prob_n": 3,
+      "emp_children": {
+        " I": 3
+      },
+      "model_children": {
+        " I": {
+          "avg_prob": 0.9999417165291834,
+          "var": 7.224602761438966e-10,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "85",
+      "token": " I",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999417165291834,
+      "model_prob_std": 2.6878621172669863e-05,
+      "model_prob_n": 3,
+      "emp_children": {
+        " was": 3
+      },
+      "model_children": {
+        " was": {
+          "avg_prob": 0.9995691286523064,
+          "var": 2.377741243012878e-08,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "86",
+      "token": " was",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 8,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9995691286523064,
+      "model_prob_std": 0.00015419926209333422,
+      "model_prob_n": 3,
+      "emp_children": {
+        " born": 3
+      },
+      "model_children": {
+        " born": {
+          "avg_prob": 0.9999630130494794,
+          "var": 3.511418882195999e-10,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "87",
+      "token": " born",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 9,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999630130494794,
+      "model_prob_std": 1.8738780329028884e-05,
+      "model_prob_n": 3,
+      "emp_children": {
+        " in": 3
+      },
+      "model_children": {
+        " in": {
+          "avg_prob": 0.9995575695728988,
+          "var": 1.774533326219513e-07,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "88",
+      "token": " in",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 10,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9995575695728988,
+      "model_prob_std": 0.00042125210102971747,
+      "model_prob_n": 3,
+      "emp_children": {
+        " Deb": 2,
+        " ": 1
+      },
+      "model_children": {
+        " Deb": {
+          "avg_prob": 0.5900020831781526,
+          "var": 0.0011501501423632596,
+          "n": 3
+        },
+        " ": {
+          "avg_prob": 0.217049637058395,
+          "var": 0.00015565608342031534,
+          "n": 3
+        },
+        " M": {
+          "avg_prob": 0.16019267026554293,
+          "var": 0.001475663280549409,
+          "n": 3
+        },
+        " Sz": {
+          "avg_prob": 0.026540788741132748,
+          "var": 8.206744764141288e-05,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "89",
+      "token": " Deb",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb"
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 2,
+      "emp_freq_here": 0.6666666666666666,
+      "model_prob_here": 0.5900020831781526,
+      "model_prob_std": 0.033913863571749824,
+      "model_prob_n": 3,
+      "emp_children": {
+        "rec": 2
+      },
+      "model_children": {
+        "rec": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "90",
+      "token": "rec",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb",
+        "rec"
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 2,
+      "emp_children": {
+        "en": 2
+      },
+      "model_children": {
+        "en": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "102",
+      "token": " ",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " "
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.3333333333333333,
+      "model_prob_here": 0.217049637058395,
+      "model_prob_std": 0.012476220718643741,
+      "model_prob_n": 3,
+      "emp_children": {
+        "193": 1
+      },
+      "model_children": {
+        "192": {
+          "avg_prob": 0.9626729941518225,
+          "var": 0.0,
+          "n": 1
+        },
+        "193": {
+          "avg_prob": 0.03732687913383872,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "103",
+      "token": "193",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " ",
+        "193"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.03732687913383872,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "0": 1
+      },
+      "model_children": {
+        "0": {
+          "avg_prob": 0.9815980284978417,
+          "var": 0.0,
+          "n": 1
+        },
+        "1": {
+          "avg_prob": 0.017978596999636807,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "112",
+      "token": " Gold",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Gold"
+      ],
+      "emp_parent_total": 59,
+      "emp_count_here": 4,
+      "emp_freq_here": 0.06779661016949153,
+      "model_prob_here": 0.5080812333566374,
+      "model_prob_std": 0.4919186301367309,
+      "model_prob_n": 8,
+      "emp_children": {
+        "stein": 4
+      },
+      "model_children": {
+        "stein": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 4
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "113",
+      "token": "stein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Gold",
+        "stein"
+      ],
+      "emp_parent_total": 4,
+      "emp_count_here": 4,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 4,
+      "emp_children": {
+        ".": 4
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9794430963404759,
+          "var": 8.338822799482304e-06,
+          "n": 4
+        },
+        ",": {
+          "avg_prob": 0.020548196567393248,
+          "var": 8.348701864366566e-06,
+          "n": 4
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "114",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Gold",
+        "stein",
+        "."
+      ],
+      "emp_parent_total": 4,
+      "emp_count_here": 4,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9794430963404759,
+      "model_prob_std": 0.0028877019928452287,
+      "model_prob_n": 4,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "115",
+      "token": " Stein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Stein"
+      ],
+      "emp_parent_total": 59,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.01694915254237288,
+      "model_prob_here": 0.9999998063873693,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        ".": 1
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9819971035535201,
+          "var": 0.0,
+          "n": 1
+        },
+        ",": {
+          "avg_prob": 0.01798590256289732,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "116",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Stein",
+        "."
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9819971035535201,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "117",
+      "token": " Kl",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 3,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl"
+      ],
+      "emp_parent_total": 302,
+      "emp_count_here": 41,
+      "emp_freq_here": 0.1357615894039735,
+      "model_prob_here": 0.6569427346914445,
+      "model_prob_std": 0.4210606530724316,
+      "model_prob_n": 65,
+      "emp_children": {
+        "ára": 14,
+        "ara": 27
+      },
+      "model_children": {
+        "ára": {
+          "avg_prob": 0.36136191920295074,
+          "var": 0.21903099154127936,
+          "n": 41
+        },
+        "ara": {
+          "avg_prob": 0.6386332336691158,
+          "var": 0.21903150403537475,
+          "n": 41
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "118",
+      "token": "ara",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara"
+      ],
+      "emp_parent_total": 41,
+      "emp_count_here": 27,
+      "emp_freq_here": 0.6585365853658537,
+      "model_prob_here": 0.6386332336691158,
+      "model_prob_std": 0.46800801706314255,
+      "model_prob_n": 41,
+      "emp_children": {
+        " Weiss": 15,
+        " Fischer": 2,
+        " We": 6,
+        " Gold": 1,
+        " Rosen": 1,
+        " F": 1,
+        " Kov": 1
+      },
+      "model_children": {
+        " Weiss": {
+          "avg_prob": 0.7149021758264237,
+          "var": 0.181238050051938,
+          "n": 20
+        },
+        " We": {
+          "avg_prob": 0.39549548725081796,
+          "var": 0.22195428927022554,
+          "n": 16
+        },
+        " Fischer": {
+          "avg_prob": 0.5121433334789719,
+          "var": 0.2380209372255905,
+          "n": 4
+        },
+        " Gold": {
+          "avg_prob": 0.9999998063873693,
+          "var": 0.0,
+          "n": 1
+        },
+        " Rosen": {
+          "avg_prob": 0.49999835445825314,
+          "var": 0.24999835264200526,
+          "n": 2
+        },
+        " Friedman": {
+          "avg_prob": 0.019582720692309534,
+          "var": 1.1976158093295393e-06,
+          "n": 2
+        },
+        " Fried": {
+          "avg_prob": 0.01365854122353159,
+          "var": 5.976943015383472e-06,
+          "n": 2
+        },
+        " F": {
+          "avg_prob": 0.9999995679801056,
+          "var": 0.0,
+          "n": 1
+        },
+        " Kov": {
+          "avg_prob": 0.9999996871837232,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "119",
+      "token": " Weiss",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss"
+      ],
+      "emp_parent_total": 27,
+      "emp_count_here": 15,
+      "emp_freq_here": 0.5555555555555556,
+      "model_prob_here": 0.7149021758264237,
+      "model_prob_std": 0.42572062441457775,
+      "model_prob_n": 20,
+      "emp_children": {
+        ".": 14,
+        ",": 1
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9348323673322205,
+          "var": 0.010718161873622173,
+          "n": 15
+        },
+        ",": {
+          "avg_prob": 0.06504439106756044,
+          "var": 0.01066654252719054,
+          "n": 15
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "120",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        "."
+      ],
+      "emp_parent_total": 15,
+      "emp_count_here": 14,
+      "emp_freq_here": 0.9333333333333333,
+      "model_prob_here": 0.9348323673322205,
+      "model_prob_std": 0.10352855583664912,
+      "model_prob_n": 15,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "121",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ","
+      ],
+      "emp_parent_total": 15,
+      "emp_count_here": 1,
+      "emp_freq_here": 0.06666666666666667,
+      "model_prob_here": 0.06504439106756044,
+      "model_prob_std": 0.1032789549094613,
+      "model_prob_n": 15,
+      "emp_children": {
+        " and": 1
+      },
+      "model_children": {
+        " and": {
+          "avg_prob": 0.9993091297149759,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "122",
+      "token": " and",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9993091297149759,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        " I": 1
+      },
+      "model_children": {
+        " I": {
+          "avg_prob": 0.9999449742141515,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "123",
+      "token": " I",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 8,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999449742141515,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        " was": 1
+      },
+      "model_children": {
+        " was": {
+          "avg_prob": 0.9975036840321511,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "124",
+      "token": " was",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 9,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9975036840321511,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        " born": 1
+      },
+      "model_children": {
+        " born": {
+          "avg_prob": 0.9999075470289935,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "125",
+      "token": " born",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 10,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9999075470289935,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        " in": 1
+      },
+      "model_children": {
+        " in": {
+          "avg_prob": 0.9998901450480843,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "126",
+      "token": " in",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9998901450480843,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        " Deb": 1
+      },
+      "model_children": {
+        " Deb": {
+          "avg_prob": 0.564673880307723,
+          "var": 0.0,
+          "n": 1
+        },
+        " ": {
+          "avg_prob": 0.266733038365323,
+          "var": 0.0,
+          "n": 1
+        },
+        " M": {
+          "avg_prob": 0.12599576583476446,
+          "var": 0.0,
+          "n": 1
+        },
+        " Sz": {
+          "avg_prob": 0.03609839129573327,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "127",
+      "token": " Deb",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Deb"
+      ],
+      "emp_parent_total": 1,
+      "emp_count_here": 1,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.564673880307723,
+      "model_prob_std": 0.0,
+      "model_prob_n": 1,
+      "emp_children": {
+        "rec": 1
+      },
+      "model_children": {
+        "rec": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 1
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "138",
+      "token": " We",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " We"
+      ],
+      "emp_parent_total": 27,
+      "emp_count_here": 6,
+      "emp_freq_here": 0.2222222222222222,
+      "model_prob_here": 0.39549548725081796,
+      "model_prob_std": 0.47112024926787593,
+      "model_prob_n": 16,
+      "emp_children": {
+        "isz": 6
+      },
+      "model_children": {
+        "isz": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 6
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "139",
+      "token": "isz",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " We",
+        "isz"
+      ],
+      "emp_parent_total": 6,
+      "emp_count_here": 6,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 6,
+      "emp_children": {
+        ".": 6
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9752481023914036,
+          "var": 1.4290964613383465e-05,
+          "n": 6
+        },
+        ",": {
+          "avg_prob": 0.02470272409698118,
+          "var": 1.4204130722452753e-05,
+          "n": 6
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "140",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " We",
+        "isz",
+        "."
+      ],
+      "emp_parent_total": 6,
+      "emp_count_here": 6,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9752481023914036,
+      "model_prob_std": 0.0037803392193536635,
+      "model_prob_n": 6,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "141",
+      "token": " Fischer",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Fischer"
+      ],
+      "emp_parent_total": 27,
+      "emp_count_here": 2,
+      "emp_freq_here": 0.07407407407407407,
+      "model_prob_here": 0.5121433334789719,
+      "model_prob_std": 0.487873894798226,
+      "model_prob_n": 4,
+      "emp_children": {
+        ".": 2
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.970641656230899,
+          "var": 1.323818056123852e-09,
+          "n": 2
+        },
+        ",": {
+          "avg_prob": 0.02931083866841912,
+          "var": 1.2114285281282537e-12,
+          "n": 2
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "142",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Fischer",
+        "."
+      ],
+      "emp_parent_total": 2,
+      "emp_count_here": 2,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.970641656230899,
+      "model_prob_std": 3.638431057645386e-05,
+      "model_prob_n": 2,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "143",
+      "token": "ára",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára"
+      ],
+      "emp_parent_total": 41,
+      "emp_count_here": 14,
+      "emp_freq_here": 0.34146341463414637,
+      "model_prob_here": 0.36136191920295074,
+      "model_prob_std": 0.468007469535775,
+      "model_prob_n": 41,
+      "emp_children": {
+        " We": 5,
+        " Gold": 2,
+        " Weiss": 4,
+        " Stein": 3
+      },
+      "model_children": {
+        " We": {
+          "avg_prob": 0.7142855867377016,
+          "var": 0.20408155953475907,
+          "n": 7
+        },
+        " Weiss": {
+          "avg_prob": 0.44444444819647505,
+          "var": 0.2469135769117753,
+          "n": 9
+        },
+        " Gold": {
+          "avg_prob": 0.9999992103693449,
+          "var": 1.4209490601377677e-14,
+          "n": 2
+        },
+        " Stein": {
+          "avg_prob": 0.9999980978034948,
+          "var": 3.8207669777533433e-13,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "144",
+      "token": " We",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " We"
+      ],
+      "emp_parent_total": 14,
+      "emp_count_here": 5,
+      "emp_freq_here": 0.35714285714285715,
+      "model_prob_here": 0.7142855867377016,
+      "model_prob_std": 0.45175387052548766,
+      "model_prob_n": 7,
+      "emp_children": {
+        "isz": 5
+      },
+      "model_children": {
+        "isz": {
+          "avg_prob": 1.0,
+          "var": 0.0,
+          "n": 5
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "145",
+      "token": "isz",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " We",
+        "isz"
+      ],
+      "emp_parent_total": 5,
+      "emp_count_here": 5,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 1.0,
+      "model_prob_std": 0.0,
+      "model_prob_n": 5,
+      "emp_children": {
+        ".": 5
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9595349407231,
+          "var": 0.00011578525083240188,
+          "n": 5
+        },
+        ",": {
+          "avg_prob": 0.04037600948078064,
+          "var": 0.00011520655117349024,
+          "n": 5
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "146",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " We",
+        "isz",
+        "."
+      ],
+      "emp_parent_total": 5,
+      "emp_count_here": 5,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9595349407231,
+      "model_prob_std": 0.01076035551607854,
+      "model_prob_n": 5,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "147",
+      "token": " Weiss",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Weiss"
+      ],
+      "emp_parent_total": 14,
+      "emp_count_here": 4,
+      "emp_freq_here": 0.2857142857142857,
+      "model_prob_here": 0.44444444819647505,
+      "model_prob_std": 0.4969039916440351,
+      "model_prob_n": 9,
+      "emp_children": {
+        ".": 4
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9779111761000072,
+          "var": 2.167960176199076e-05,
+          "n": 4
+        },
+        ",": {
+          "avg_prob": 0.022064967344763486,
+          "var": 2.1655639980683416e-05,
+          "n": 4
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "148",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Weiss",
+        "."
+      ],
+      "emp_parent_total": 4,
+      "emp_count_here": 4,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9779111761000072,
+      "model_prob_std": 0.00465613592606474,
+      "model_prob_n": 4,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "149",
+      "token": " Stein",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Stein"
+      ],
+      "emp_parent_total": 14,
+      "emp_count_here": 3,
+      "emp_freq_here": 0.21428571428571427,
+      "model_prob_here": 0.9999980978034948,
+      "model_prob_std": 6.181235295435163e-07,
+      "model_prob_n": 3,
+      "emp_children": {
+        ".": 3
+      },
+      "model_children": {
+        ".": {
+          "avg_prob": 0.9602891100536429,
+          "var": 5.815184671229621e-05,
+          "n": 3
+        },
+        ",": {
+          "avg_prob": 0.03960417005358082,
+          "var": 5.772771326221141e-05,
+          "n": 3
+        }
+      },
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "150",
+      "token": ".",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": false,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Stein",
+        "."
+      ],
+      "emp_parent_total": 3,
+      "emp_count_here": 3,
+      "emp_freq_here": 1.0,
+      "model_prob_here": 0.9602891100536429,
+      "model_prob_std": 0.007625735814483492,
+      "model_prob_n": 3,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_4_3",
+      "token": " K",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " K"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.18065000386879207,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_12_4",
+      "token": " Sz",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Sz"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.012374898189439704,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_12_5",
+      "token": " the",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " the"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.011506320606345244,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_34_14",
+      "token": "unk",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M",
+        "unk"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.05968680616902643,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_53_18",
+      "token": " M",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.06258725878869062,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_76_27",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "stein",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.028526836136213398,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_78_28",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Miriam",
+        " Gold",
+        "mann",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.04742197374208802,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_80_29",
+      "token": " Friedman",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 4,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Friedman"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.019576099589592354,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_88_30",
+      "token": " M",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.16019267026554293,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_88_31",
+      "token": " Sz",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 11,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Sz"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.026540788741132748,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_102_33",
+      "token": "192",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Klein",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " ",
+        "192"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.9626729941518225,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_113_39",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Gold",
+        "stein",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.020548196567393248,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_115_40",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Eva",
+        " Stein",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.01798590256289732,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_118_41",
+      "token": " Friedman",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Friedman"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.019582720692309534,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_118_42",
+      "token": " Fried",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 5,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Fried"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.01365854122353159,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_126_43",
+      "token": " ",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " "
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.266733038365323,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_126_44",
+      "token": " M",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " M"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.12599576583476446,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_126_45",
+      "token": " Sz",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 12,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Weiss",
+        ",",
+        " and",
+        " I",
+        " was",
+        " born",
+        " in",
+        " Sz"
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.03609839129573327,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_139_49",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " We",
+        "isz",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.02470272409698118,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_141_50",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ara",
+        " Fischer",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.02931083866841912,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_145_51",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 7,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " We",
+        "isz",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.04037600948078064,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_147_52",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Weiss",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.022064967344763486,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    },
+    {
+      "id": "ghost_149_53",
+      "token": ",",
+      "is_root": false,
+      "is_prefix": false,
+      "is_anchor": false,
+      "isGhost": true,
+      "position": 6,
+      "path": [
+        "My",
+        " name",
+        " is",
+        " Kl",
+        "ára",
+        " Stein",
+        ","
+      ],
+      "emp_parent_total": 0,
+      "emp_count_here": 0,
+      "emp_freq_here": null,
+      "model_prob_here": 0.03960417005358082,
+      "model_prob_std": null,
+      "model_prob_n": null,
+      "emp_children": {},
+      "model_children": {},
+      "cluster_label": null,
+      "prompt": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "kind": "emp",
+      "prob": 0.45345345345345345,
+      "weight": 1
+    },
+    {
+      "source": "0",
+      "target": "151",
+      "kind": "emp",
+      "prob": 0.23123123123123124,
+      "weight": 1
+    },
+    {
+      "source": "0",
+      "target": "682",
+      "kind": "emp",
+      "prob": 0.11711711711711711,
+      "weight": 1
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "kind": "emp",
+      "prob": 0.3973509933774834,
+      "weight": 1
+    },
+    {
+      "source": "3",
+      "target": "80",
+      "kind": "emp",
+      "prob": 0.19536423841059603,
+      "weight": 1
+    },
+    {
+      "source": "3",
+      "target": "117",
+      "kind": "emp",
+      "prob": 0.1357615894039735,
+      "weight": 1
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "kind": "emp",
+      "prob": 0.65,
+      "weight": 1
+    },
+    {
+      "source": "4",
+      "target": "46",
+      "kind": "emp",
+      "prob": 0.14166666666666666,
+      "weight": 1
+    },
+    {
+      "source": "4",
+      "target": "75",
+      "kind": "emp",
+      "prob": 0.06666666666666667,
+      "weight": 1
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "kind": "emp",
+      "prob": 0.9615384615384616,
+      "weight": 1
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "kind": "emp",
+      "prob": 0.038461538461538464,
+      "weight": 1
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "9",
+      "target": "10",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "12",
+      "target": "13",
+      "kind": "emp",
+      "prob": 0.3333333333333333,
+      "weight": 1
+    },
+    {
+      "source": "12",
+      "target": "24",
+      "kind": "emp",
+      "prob": 0.3333333333333333,
+      "weight": 1
+    },
+    {
+      "source": "12",
+      "target": "34",
+      "kind": "emp",
+      "prob": 0.3333333333333333,
+      "weight": 1
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "24",
+      "target": "25",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "34",
+      "target": "35",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "46",
+      "target": "47",
+      "kind": "emp",
+      "prob": 0.8823529411764706,
+      "weight": 1
+    },
+    {
+      "source": "46",
+      "target": "48",
+      "kind": "emp",
+      "prob": 0.11764705882352941,
+      "weight": 1
+    },
+    {
+      "source": "48",
+      "target": "49",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "49",
+      "target": "50",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "50",
+      "target": "51",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "51",
+      "target": "52",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "52",
+      "target": "53",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "53",
+      "target": "54",
+      "kind": "emp",
+      "prob": 0.5,
+      "weight": 1
+    },
+    {
+      "source": "53",
+      "target": "64",
+      "kind": "emp",
+      "prob": 0.5,
+      "weight": 1
+    },
+    {
+      "source": "54",
+      "target": "55",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "64",
+      "target": "65",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "75",
+      "target": "76",
+      "kind": "emp",
+      "prob": 0.875,
+      "weight": 1
+    },
+    {
+      "source": "75",
+      "target": "78",
+      "kind": "emp",
+      "prob": 0.125,
+      "weight": 1
+    },
+    {
+      "source": "76",
+      "target": "77",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "78",
+      "target": "79",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "80",
+      "target": "81",
+      "kind": "emp",
+      "prob": 0.864406779661017,
+      "weight": 1
+    },
+    {
+      "source": "80",
+      "target": "112",
+      "kind": "emp",
+      "prob": 0.06779661016949153,
+      "weight": 1
+    },
+    {
+      "source": "80",
+      "target": "115",
+      "kind": "emp",
+      "prob": 0.01694915254237288,
+      "weight": 1
+    },
+    {
+      "source": "81",
+      "target": "82",
+      "kind": "emp",
+      "prob": 0.9411764705882353,
+      "weight": 1
+    },
+    {
+      "source": "81",
+      "target": "83",
+      "kind": "emp",
+      "prob": 0.058823529411764705,
+      "weight": 1
+    },
+    {
+      "source": "83",
+      "target": "84",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "84",
+      "target": "85",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "85",
+      "target": "86",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "86",
+      "target": "87",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "87",
+      "target": "88",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "88",
+      "target": "89",
+      "kind": "emp",
+      "prob": 0.6666666666666666,
+      "weight": 1
+    },
+    {
+      "source": "88",
+      "target": "102",
+      "kind": "emp",
+      "prob": 0.3333333333333333,
+      "weight": 1
+    },
+    {
+      "source": "89",
+      "target": "90",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "102",
+      "target": "103",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "112",
+      "target": "113",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "113",
+      "target": "114",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "115",
+      "target": "116",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "117",
+      "target": "118",
+      "kind": "emp",
+      "prob": 0.6585365853658537,
+      "weight": 1
+    },
+    {
+      "source": "117",
+      "target": "143",
+      "kind": "emp",
+      "prob": 0.34146341463414637,
+      "weight": 1
+    },
+    {
+      "source": "118",
+      "target": "119",
+      "kind": "emp",
+      "prob": 0.5555555555555556,
+      "weight": 1
+    },
+    {
+      "source": "118",
+      "target": "138",
+      "kind": "emp",
+      "prob": 0.2222222222222222,
+      "weight": 1
+    },
+    {
+      "source": "118",
+      "target": "141",
+      "kind": "emp",
+      "prob": 0.07407407407407407,
+      "weight": 1
+    },
+    {
+      "source": "119",
+      "target": "120",
+      "kind": "emp",
+      "prob": 0.9333333333333333,
+      "weight": 1
+    },
+    {
+      "source": "119",
+      "target": "121",
+      "kind": "emp",
+      "prob": 0.06666666666666667,
+      "weight": 1
+    },
+    {
+      "source": "121",
+      "target": "122",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "122",
+      "target": "123",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "123",
+      "target": "124",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "124",
+      "target": "125",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "125",
+      "target": "126",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "126",
+      "target": "127",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "138",
+      "target": "139",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "139",
+      "target": "140",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "141",
+      "target": "142",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "143",
+      "target": "144",
+      "kind": "emp",
+      "prob": 0.35714285714285715,
+      "weight": 1
+    },
+    {
+      "source": "143",
+      "target": "147",
+      "kind": "emp",
+      "prob": 0.2857142857142857,
+      "weight": 1
+    },
+    {
+      "source": "143",
+      "target": "149",
+      "kind": "emp",
+      "prob": 0.21428571428571427,
+      "weight": 1
+    },
+    {
+      "source": "144",
+      "target": "145",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "145",
+      "target": "146",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "147",
+      "target": "148",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "149",
+      "target": "150",
+      "kind": "emp",
+      "prob": 1.0,
+      "weight": 1
+    },
+    {
+      "source": "4",
+      "target": "ghost_4_3",
+      "kind": "ghost",
+      "prob": 0.18065000386879207,
+      "weight": 1
+    },
+    {
+      "source": "12",
+      "target": "ghost_12_4",
+      "kind": "ghost",
+      "prob": 0.012374898189439704,
+      "weight": 1
+    },
+    {
+      "source": "12",
+      "target": "ghost_12_5",
+      "kind": "ghost",
+      "prob": 0.011506320606345244,
+      "weight": 1
+    },
+    {
+      "source": "34",
+      "target": "ghost_34_14",
+      "kind": "ghost",
+      "prob": 0.05968680616902643,
+      "weight": 1
+    },
+    {
+      "source": "53",
+      "target": "ghost_53_18",
+      "kind": "ghost",
+      "prob": 0.06258725878869062,
+      "weight": 1
+    },
+    {
+      "source": "76",
+      "target": "ghost_76_27",
+      "kind": "ghost",
+      "prob": 0.028526836136213398,
+      "weight": 1
+    },
+    {
+      "source": "78",
+      "target": "ghost_78_28",
+      "kind": "ghost",
+      "prob": 0.04742197374208802,
+      "weight": 1
+    },
+    {
+      "source": "80",
+      "target": "ghost_80_29",
+      "kind": "ghost",
+      "prob": 0.019576099589592354,
+      "weight": 1
+    },
+    {
+      "source": "88",
+      "target": "ghost_88_30",
+      "kind": "ghost",
+      "prob": 0.16019267026554293,
+      "weight": 1
+    },
+    {
+      "source": "88",
+      "target": "ghost_88_31",
+      "kind": "ghost",
+      "prob": 0.026540788741132748,
+      "weight": 1
+    },
+    {
+      "source": "102",
+      "target": "ghost_102_33",
+      "kind": "ghost",
+      "prob": 0.9626729941518225,
+      "weight": 1
+    },
+    {
+      "source": "113",
+      "target": "ghost_113_39",
+      "kind": "ghost",
+      "prob": 0.020548196567393248,
+      "weight": 1
+    },
+    {
+      "source": "115",
+      "target": "ghost_115_40",
+      "kind": "ghost",
+      "prob": 0.01798590256289732,
+      "weight": 1
+    },
+    {
+      "source": "118",
+      "target": "ghost_118_41",
+      "kind": "ghost",
+      "prob": 0.019582720692309534,
+      "weight": 1
+    },
+    {
+      "source": "118",
+      "target": "ghost_118_42",
+      "kind": "ghost",
+      "prob": 0.01365854122353159,
+      "weight": 1
+    },
+    {
+      "source": "126",
+      "target": "ghost_126_43",
+      "kind": "ghost",
+      "prob": 0.266733038365323,
+      "weight": 1
+    },
+    {
+      "source": "126",
+      "target": "ghost_126_44",
+      "kind": "ghost",
+      "prob": 0.12599576583476446,
+      "weight": 1
+    },
+    {
+      "source": "126",
+      "target": "ghost_126_45",
+      "kind": "ghost",
+      "prob": 0.03609839129573327,
+      "weight": 1
+    },
+    {
+      "source": "139",
+      "target": "ghost_139_49",
+      "kind": "ghost",
+      "prob": 0.02470272409698118,
+      "weight": 1
+    },
+    {
+      "source": "141",
+      "target": "ghost_141_50",
+      "kind": "ghost",
+      "prob": 0.02931083866841912,
+      "weight": 1
+    },
+    {
+      "source": "145",
+      "target": "ghost_145_51",
+      "kind": "ghost",
+      "prob": 0.04037600948078064,
+      "weight": 1
+    },
+    {
+      "source": "147",
+      "target": "ghost_147_52",
+      "kind": "ghost",
+      "prob": 0.022064967344763486,
+      "weight": 1
+    },
+    {
+      "source": "149",
+      "target": "ghost_149_53",
+      "kind": "ghost",
+      "prob": 0.03960417005358082,
+      "weight": 1
+    }
+  ],
+  "anchor_root_id": "3"
+}
